@@ -38,6 +38,16 @@ a {
 .bike_box {
   margin-bottom: 3.5rem;
 }
+img {
+    vertical-align: middle;
+}
+
+.bike_name_wrapper {
+    height: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 
 .bike_name {
   max-width: 109px;
@@ -49,12 +59,12 @@ a {
 }
 
 .bike_image_wrapper img {
-  position: relative;
-  max-width: 159px;
-  max-height: 73px;
-  -webkit-backface-visibility: hidden;
-  backface-visibility: hidden;
-  vertical-align: bottom;
+    position: relative;
+    max-width: 159px;
+    max-height: 73px;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    vertical-align: bottom;
 }
 
 .bike_link {
@@ -423,6 +433,17 @@ a {
     -ms-justify-content: flex-end;
     justify-content: flex-end;
   }
+  .bike_name {
+    max-width: none;
+    max-height: none;
+}
+
+.bike_name_wrapper {
+    height: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 }
 
 @media (min-width: 1530px) {
