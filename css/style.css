@@ -505,8 +505,8 @@ footer::before{
     justify-content: flex-end;
   }
   .bike_name {
-    max-width: none;
-    max-height: none;
+    max-width: 130px;
+    max-height: 45px;
 }
 
 .bike_name_wrapper {
