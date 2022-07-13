@@ -416,6 +416,7 @@ footer::before{
   .bike_image_wrapper {
     padding: 1.5rem 0;
     text-align: center;
+    padding-top: 0;
   }
 
   .welcome-row:before {
