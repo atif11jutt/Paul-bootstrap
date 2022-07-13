@@ -330,6 +330,50 @@ footer::before{
     color: #263776;
 }
 
+.companies-logos a{
+    -webkit-transition: transform .3s ease-in-out;
+    -o-transition: transform .3s ease-in-out;
+    transition: transform .3s ease-in-out;
+    position: relative;
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+    box-shadow: 0 0 1px rgb(0 0 0 / 0%);
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.companies-logos a:hover{
+    -webkit-transform: translateY(-5px);
+    transform: translateY(-5px);
+}
+
+.companies-logos a:before {
+    -webkit-transition: transform .3s ease-in-out,opacity .3s ease-in-out;
+    -o-transition: transform .3s ease-in-out,opacity .3s ease-in-out;
+    transition: transform .3s ease-in-out,opacity .3s ease-in-out;
+    content: '';
+    pointer-events: none;
+    position: absolute;
+    top: 100%;
+    left: 5%;
+    height: 10px;
+    width: 90%;
+    z-index: -1;
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+    opacity: 0;
+    background: -webkit-radial-gradient(center, ellipse, rgba(255,255,255,0.35) 0%, rgba(255,255,255,0) 80%);
+    background: radial-gradient(ellipse at center, rgba(255,255,255,0.35) 0%, rgba(255,255,255,0) 80%);
+}
+
+.companies-logos a:hover:before{
+    opacity: 1;
+    -webkit-transform: translateY(5px);
+    transform: translateY(5px);
+}
 
 
 /*  */
