@@ -1450,3 +1450,9 @@ footer::before {
     margin: auto;
   }
 }
+
+@media (min-width: 1920px) {
+  .shop-by-brand-row {
+    background-size: cover;
+  }
+}
